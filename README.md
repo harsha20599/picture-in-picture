@@ -1,6 +1,8 @@
 # Picture In Picture
 A minimal function to simplify the implementation of PIP mode in chrome
 
+> Here is the [live demo](https://harsha20599.github.io/picture-in-picture/demo/)
+
 ![PIP demo](http://g.recordit.co/M4SXr0PJcw.gif)
 
 ## Usage
