@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>PIP mode</title>
+  <!-- Importing pip.js file -->
+  <script src="../pip.js"></script>  
+</head>
+<body>
+
+  <!-- Button to toggle Picture-In-Picture mode -->
+  <button id="togglePipButton">Enter PIP mode</button>
+
+  <!-- Video source to play within PIP -->
+  <video id="video" src="video.mp4" ></video>
+
+  <script>
+
+    const button = document.getElementById('togglePipButton');
+
+    // Calling the function to initiate picture-in-picture
+    pip({ button },
+      // handling callback
+      (err) => {
+        if(err) {
+          // Handle the error
+          return console.log("successful");
+        }
+        // On sucessful creation of Picture-in-picture mode
+        console.log("Sucessful");
+      }
+    );
+
+  </script>  
+</body>
+</html>
