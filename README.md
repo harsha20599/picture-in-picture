@@ -5,7 +5,7 @@ A minimal function to simplify the implementation of PIP mode in chrome
 
 ## Usage
   ```javascript
-  PIP(object, callback);
+  pip(object, callback);
   ```
   The `object` contains
   ```javascript
